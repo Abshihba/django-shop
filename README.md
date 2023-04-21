@@ -28,10 +28,6 @@ python manage.py runserver
 ```
 
 
-## Автор
-
-* **Alexander Antoshchuk**
-
 ## License
 
 Этот проект находится под лицензией MIT License - подробнее [LICENSE](LICENSE.md)
