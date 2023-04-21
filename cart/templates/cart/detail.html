@@ -14,7 +14,7 @@
                             {{ totail_items }} item {{ totail_items|pluralize }}, {{ cart.get_total_price }}
                         </a>
                         {% else %}
-                        Your cart is empty.
+                        Корзина пуста.
                     {% endif %}
                 {% endwith %}
             </span>
@@ -69,7 +69,7 @@
                 </tbody>
             </table>
         <p class="text-right">
-            <a href="{% url "shop:product_list" %}" class="btn btn-default">Продолжить покупку</a>
+            <a href="{% url "shop:product_list" %}" class="btn btn-default">За покупками</a>
             <a href="{% url "orders:order_create" %}" class="btn btn-primary">Оформить заказ</a>
         </p>
         </div>
